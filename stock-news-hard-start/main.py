@@ -7,7 +7,7 @@ from twilio.rest import Client
 from dotenv import load_dotenv
 import os
 
-load_dotenv()  # Loads variables from .env file
+load_dotenv() 
 
 STOCK = os.getenv("STOCK")
 COMPANY_NAME = os.getenv("COMPANY_NAME")
